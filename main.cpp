@@ -23,7 +23,7 @@ class MyClass
             bind.bindNew("y", y, RhIO::Bind::PushOnly);
 
             // A test command
-            bind.bindFunc("test", "test command", &A::myCmd, *this);
+            bind.bindFunc("test", "test command", &MyClass::myCmd, *this);
 
             // A stream to debug
             bind.newStream("debug", "Debugging");
