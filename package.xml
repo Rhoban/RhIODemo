@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>RhIODemo</name>
+  <version>0.0.0</version>
+  <description>
+      Demonstration package for RhIO
+  </description>
+
+  <maintainer email="qrouxel@labri.fr">Quentin Rouxel</maintainer>
+  <maintainer email="gpassault@labri.fr">Grégoire Passault</maintainer>
+
+  <license>MIT</license>
+
+  <url type="website">https://github.com/Rhoban/RhIO</url>
+
+  <author email="qrouxel@labri.fr">Quentin Rouxel</author>
+  <author email="gpassault@labri.fr">Grégoire Passault</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>RhIOServer</build_depend> <!-- rhoban/rhio -->
+  
+  <run_depend>RhIOServer</run_depend>
+</package>
